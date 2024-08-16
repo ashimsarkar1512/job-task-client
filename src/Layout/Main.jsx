@@ -6,7 +6,9 @@ import Navbar from "../Navbar/Navbar";
 const Main = () => {
             return (
                         <div>
-                        <Navbar></Navbar>
+                     <div className="h-20">
+                     <Navbar></Navbar>
+                     </div>
                           <Outlet></Outlet> 
                           <Footer></Footer>         
                         </div>

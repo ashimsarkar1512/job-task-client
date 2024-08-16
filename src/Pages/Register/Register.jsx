@@ -61,7 +61,7 @@ const Register = () => {
             return (
                        
         <div className='flex mb-28 flex-col lg:flex-row'>
-        <div className='w-[80%] mx-auto lg:w-[50%] mt-28 '>
+        <div className='w-[80%] mx-auto lg:w-[50%] mt-10 '>
             <h1 className="text-2xl font-bold text-center text-green-500 my-5">Register your account</h1>
             <div className='w-full lg:w-[75%] mx-auto '>
                 <form onSubmit={handleRegister} className='space-y-5'>
