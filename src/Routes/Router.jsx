@@ -29,7 +29,8 @@ import Products from "../Pages/Products/Products";
                         },
                         {
                           path:'/product',
-                          element:<Products></Products>
+                          element:<Products></Products>,
+                          loader:()=>fetch('http://localhost:5000/productsCount')
                         }
               ]
             },
