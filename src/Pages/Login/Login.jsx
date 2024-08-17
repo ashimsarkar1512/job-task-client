@@ -59,7 +59,7 @@ const Login = () => {
           if(result.user){
             setSuccess(toast.success("login successfully "))
             setTimeout(()=>{
-              navigate(location?.state? location.state:'/')
+              navigate(location?.state? location.state:'/product')
             },3000);
           }
         

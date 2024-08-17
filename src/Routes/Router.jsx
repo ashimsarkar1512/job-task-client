@@ -16,7 +16,7 @@ import Products from "../Pages/Products/Products";
               children:[
                         {
                                     path:'/',
-                                    element:<Home></Home>
+                                    element:<Register></Register>
 
                         },
                         {

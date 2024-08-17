@@ -18,7 +18,7 @@ const Navbar = () => {
   }
 
             const navLinks=<>
-             <li ><NavLink  className={({ isActive }) => (isActive ? 'text-xl text-orange-500 font-medium' : 'text-xl dark:text-green-600 font-medium')} to='/'>Home</NavLink></li>
+             
              <li ><NavLink  className={({ isActive }) => (isActive ? 'text-xl text-orange-500 font-medium' : 'text-xl dark:text-green-600 font-medium')} to='/product'>Products</NavLink></li>
 
                
@@ -37,7 +37,7 @@ const Navbar = () => {
       }
       </ul>
     </div>
-    <a className="btn btn-ghost text-2xl  font-bold dark:text-primary gap-0">Artistic <span>
+    <a className="btn btn-ghost text-2xl  font-bold dark:text-primary gap-0">ElectraByte <span>
      
       
      </span></a>
