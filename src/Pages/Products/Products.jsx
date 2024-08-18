@@ -26,7 +26,7 @@ const Products = () => {
         
         
             useEffect(() => {
-                fetch(`http://localhost:5000/products?page=${currentPage}&size=${itemsPerPage}&sort=${asc ? 'asc' : 'desc'}&search=${search}&brand=${brand}&category=${category}&minPrice=${minPrice}&maxPrice=${maxPrice}`)
+                fetch(`https://job-task-server-gamma-lilac.vercel.app/products?page=${currentPage}&size=${itemsPerPage}&sort=${asc ? 'asc' : 'desc'}&search=${search}&brand=${brand}&category=${category}&minPrice=${minPrice}&maxPrice=${maxPrice}`)
                     .then(res => res.json())
                     .then(data => setProducts(data))
             }, [currentPage,asc,search,brand, category, minPrice, maxPrice]);
@@ -67,7 +67,7 @@ const Products = () => {
                           </form>
                           </div>
 
-                          <div className="flex justify-center py-5">
+                          <div className="flex flex-col md:flex-row justify-center  py-5">
         <input placeholder="Brand" value={brand} onChange={e => setBrand(e.target.value)} className="mr-2" />
         <input placeholder="Category" value={category} onChange={e => setCategory(e.target.value)} className="mr-2" />
         <input placeholder="Min Price" type="number" value={minPrice} onChange={e => setMinPrice(e.target.value)} className="mr-2" />

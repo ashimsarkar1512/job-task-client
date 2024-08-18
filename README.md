@@ -1,8 +1,22 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Product Listing: Display products with information such as name, description, price, brand, category, ratings, and creation date.
+Search: Search for products using a search bar.
+Filtering:Filter products by brand, category, and price range.
+Sorting:Sort products by price (ascending and descending).
+Pagination: Navigate through pages of products and adjust the number of items displayed per page.
+
+Technologies Used
+
+React: JavaScript library for building user interfaces.
+React Router: For handling routing in the application.
+Tailwind CSS: For styling the application.
+
+
+running locally:
+git clone github link
+cd products-listing-app
+npm install
+npm run dev

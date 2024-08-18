@@ -30,7 +30,7 @@ import Products from "../Pages/Products/Products";
                         {
                           path:'/product',
                           element:<Products></Products>,
-                          loader:()=>fetch('http://localhost:5000/productsCount')
+                          loader:()=>fetch('https://job-task-server-gamma-lilac.vercel.app/productsCount')
                         }
               ]
             },
